@@ -1,0 +1,53 @@
+.jumbotron {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
+
+body {
+    background-image: url("../images/backgroundimg.jpg");
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 80%;
+}
+
+#articles {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    display: inline-block;
+    overflow: auto;
+    width: 65%;
+    height: 700px;
+  }
+
+.btn {
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.card {
+    float: left;
+    margin: 20px 20px;
+    background-color: rgb(139, 35, 122);
+    color: white;
+    height: 300px;
+}
+
+#notes {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    float: right;
+    width: 25%;
+    height: 400px;
+    padding: 10px;
+}
+
+input textarea {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 100%;
+}
